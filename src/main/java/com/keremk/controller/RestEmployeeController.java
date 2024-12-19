@@ -1,11 +1,13 @@
-package com.keremk.services;
+package com.keremk.controller;
 
 import com.keremk.dto.DtoEmployee;
 
-public interface IEmployeeService {
-
+public interface RestEmployeeController {
+	
+	
+	
 	public DtoEmployee findEmployeeById(Long id);
 		
-		
 	
+
 }
