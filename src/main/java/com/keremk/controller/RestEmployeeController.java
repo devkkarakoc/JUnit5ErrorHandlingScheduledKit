@@ -1,12 +1,13 @@
 package com.keremk.controller;
 
 import com.keremk.dto.DtoEmployee;
+import com.keremk.model.RootEntity;
 
 public interface RestEmployeeController {
 	
 	
 	
-	public DtoEmployee findEmployeeById(Long id);
+	public RootEntity<DtoEmployee> findEmployeeById(Long id);
 		
 	
 
